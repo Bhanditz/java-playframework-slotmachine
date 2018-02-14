@@ -1,0 +1,13 @@
+# Routes
+
+# The controller that renders the splash screen page
+GET     /                           controllers.HomeController.index
+
+# The controller that renders the main game page
+GET     /play                       controllers.SlotMachineController.play
+
+# The controller that renders the statistics page
+GET     /statistics                 controllers.SlotMachineController.showStatistics
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

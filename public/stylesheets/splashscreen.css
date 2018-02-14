@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;}
+#top {
+    padding: 1%;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.wrapper {
+    padding: 1%;
+    font-family: "Roboto Thin", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30pt;
+}
+#content {
+    position: fixed;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+#play-btn {
+    position: relative;
+    width: 22%;
+    height: 10%;
+    bottom: -4%;
+    border-radius: 20px;
+    border: none;
+    background: #0D47A1;
+    font-family: "Raleway Thin";
+    color: #ffffff;
+    font-size: 50pt;
+    cursor: pointer;
+    display: none;
+}
+#play-btn:hover {
+    background: #01579B;
+}
+#play-btn:active {
+    background: #311B92;
+    transform: translateY(10px);
+}
+.login-form {
+    margin-top: 5%;
+}
+.input-txt {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    border: 0;
+    border-bottom: 1px solid white;
+    font-family: "Roboto";
+    background: none;
+    color: white;
+}
+#log-in {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #0D47A1;
+    font-family: "Raleway";
+    color: #ffffff;
+    font-size: 15pt;
+    cursor: pointer;
+}
+#log-in:hover {
+    background: #01579B;
+}
+#log-in:active {
+    background: #311B92;
+    transform: translateY(4px);
+}
+#sign-up {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Raleway";
+    background: white;
+    color: #0D47A1;
+    font-size: 15pt;
+    cursor: pointer;
+}
+#sign-up:hover {
+    background: #0D47A1;
+    color: white;
+}
+#sign-up:active {
+    background: #0D47A1;
+    color: white;
+    transform: translateY(4px);
+}
+#log-out {
+    display: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #0D47A1;
+    font-family: "Raleway";
+    background: white;
+    color: #ff0000;
+    font-size: 15pt;
+    cursor: pointer;
+}
+#log-out:hover {
+    background: red;
+    color: white;
+}
+#log-out:active {
+    background: red;
+    color: white;
+    transform: translateY(4px);
+}
+#login-msg {
+    margin-top: 5%;
+    font-size: 16pt;
+}

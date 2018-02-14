@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;}
+#top {
+    padding: 1%;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.wrapper {
+    padding: 1%;
+    font-family: "Roboto Thin", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30pt;
+}
+#content {
+    position: fixed;
+    background-color: #000000;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+#save-btn {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    margin-top: 30%;
+    left: 46%;
+    border-radius: 10px;
+    border: none;
+    background: #0D47A1;
+    font-family: "Raleway Thin";
+    color: #ffffff;
+    font-size: 15pt;
+    cursor: pointer;
+    z-index: 1;
+}
+#save-btn:hover {
+    background: #01579B;
+    z-index: 1;
+}
+#save-btn:active {
+    background: #311B92;
+    transform: translateY(4px);
+    z-index: 1;
+}
+#stats {
+    z-index: 1;
+    margin-top: 10%;
+    display:inline-block;
+}
+.stat-labels {
+    display:block;
+    text-transform: uppercase;
+    width: auto;
+}

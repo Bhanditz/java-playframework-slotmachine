@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;}
+#top {
+    padding: 1%;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.wrapper {
+    padding: 0;
+    font-family: "Roboto Thin", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30pt;
+}
+#game-logout-btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #FFFFFF;
+    font-family: "Raleway";
+    color: #0000FF;
+    font-size: 15pt;
+    cursor: pointer;
+}
+#game-logout-btn:hover {
+    background: red;
+    color: white;
+}
+#game-logout-btn:active {
+    background: red;
+    color: white;
+    transform: translateY(4px);
+}
+#payout-btn {
+    width: 160px;
+    height: 40px;
+    margin-right: 75%;
+    border-radius: 10px;
+    border: none;
+    background: #FFFFFF;
+    font-family: "Raleway";
+    color: #0000FF;
+    font-size: 15pt;
+    cursor: pointer;
+}
+#payout-btn:hover {
+    background: darkgreen;
+    color: white;
+}
+#payout-btn:active {
+    background: darkgreen;
+    color: white;
+    transform: translateY(4px);
+}
+#content {
+    position: fixed;
+    background-color: #000000;
+    padding-top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+#spin-btn {
+    position: relative;
+    width: 20%;
+    height: 14%;
+    bottom: 25%;
+    border-radius: 30px;
+    border: none;
+    background: #0D47A1;
+    font-family: "Raleway Thin";
+    color: #ffffff;
+    font-size: 50pt;
+    cursor: pointer;
+}
+#spin-btn:hover {
+    background: #01579B;
+}
+#spin-btn:active {
+    background: #311B92;
+    transform: translateY(10px);
+}
+#reels {
+    padding: 2%;
+}
+#reel1, #reel2, #reel3 {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+#credit-bet-area {
+    padding: 2%;
+    font-size: 50pt;
+}
+#credit-bet-area-lbl {
+    padding: 2%;
+    font-size: 20pt;
+}
+#bet-area {
+    position: relative;
+    left: -300px;
+    bottom: -5px;
+}
+#bet-area-lbl {
+    position: relative;
+    left: -240px;
+    bottom: 50px;
+}
+#credit-area {
+    position: relative;
+    right: -300px;
+    bottom: -5px;
+}
+#credit-area-lbl {
+    position: relative;
+    right: -280px;
+    bottom: 50px;
+}
+#buttons {
+    position: relative;
+    bottom: 15%;
+}
+.small-btns {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #0D47A1;
+    font-family: "Raleway Thin";
+    color: #ffffff;
+    font-size: 15pt;
+    cursor: pointer;
+}
+.small-btns:hover {
+    background: #01579B;
+}
+.small-btns:active {
+    background: #311B92;
+    transform: translateY(4px);
+}
+#bet-one, #bet-max, #add-coin, #reset {
+    margin-left: 2.7%;
+    margin-right: 2.7%;
+}
+#statistics-btn {
+    position: relative;
+    width: 160px;
+    height: 40px;
+    bottom: 10%;
+    border-radius: 10px;
+    border: none;
+    background: #2c3e50;
+    font-family: "Raleway Thin";
+    color: #ffffff;
+    font-size: 15pt;
+    cursor: pointer;
+}
+#statistics-btn:hover {
+    background: #374f68;
+}
+#statistics-btn:active {
+    background: #1d2d3d;
+    transform: translateY(4px);
+}

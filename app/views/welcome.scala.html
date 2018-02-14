@@ -1,0 +1,32 @@
+@(message: String, style: String = "java")
+
+    @defining(play.core.PlayVersion.current) { version =>
+
+        <section id="top">
+            <div class="wrapper">
+                <h1>@message</h1>
+            </div>
+        </section>
+
+        <div id="content" class="wrapper doc">
+            <form class="login-form">
+
+                <!--Email and Password Textfields-->
+                <input type="email" placeholder="Email" id="email" class="input-txt" required><br/>
+                <input type="password" placeholder="Password" id="pass" class="input-txt" required><br/>
+
+                <!--Login, Signup and Logout Buttons-->
+                <input type="button" value="Log In" id="log-in">
+                <input type="button" value="Sign Up" id="sign-up"><br/>
+                <input type="button" value="Log Out" id="log-out">
+            </form>
+
+            <!--Manipulated to display errors and notifications regarding login status-->
+            <p id="login-msg">Log In or Create an Account to Play.</p>
+
+            <!--Play Button click calls play() method in SlotMachineController class and routes to main game page-->
+            <a href="@routes.SlotMachineController.play()" id="play-btn-link">
+                <input type="submit" id="play-btn" value="PLAY">
+            </a>
+        </div>
+    }
